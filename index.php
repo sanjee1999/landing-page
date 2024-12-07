@@ -13,17 +13,15 @@
     <nav class="bg-white shadow-md fixed top-0 left-0 w-full z-10">
 
         <div class="container mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="#" class="text-blue-600 text-xl font-bold flex items-center">
-                <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M3 3h18v18H3z"/>
-                </svg>
-                AccountPro UK
+            <a href="#" class="text-yellow-600 text-xl font-bold flex items-center">
+            <img src="assets/logo.png" alt="AccountPro UK Logo" class="w-12 h-8 mr-2">
+                amber business solutions
             </a>
             <ul class="flex space-x-6 text-gray-600">
-                <li><a href="#" class="hover:text-blue-600">Services</a></li>
-                <li><a href="#" class="hover:text-blue-600">About</a></li>
-                <li><a href="#" class="hover:text-blue-600">Testimonials</a></li>
-                <li><a href="#" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Contact Us</a></li>
+                <li><a href="#" class="hover:text-yellow-600">Services</a></li>
+                <li><a href="#" class="hover:text-yellow-600">About</a></li>
+                <li><a href="#" class="hover:text-yellow-600">Testimonials</a></li>
+                <li><a href="#" class="bg-yellow-600 text-white px-4 py-2 rounded hover:bg-yellow-500">Contact Us</a></li>
             </ul>
         </div>
     </nav>
@@ -33,8 +31,8 @@
         <h1 class="text-4xl font-bold text-gray-800">Expert Accountancy Services for UK Businesses</h1>
         <p class="text-gray-600 mt-4">Transform your financial management with our comprehensive accounting solutions.<br>We help businesses across the UK streamline their finances and achieve growth.</p>
         <div class="mt-8">
-            <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Get Started</a>
-            <a href="#" class="text-blue-600 ml-4 hover:underline">Learn more →</a>
+            <a href="#" class="bg-yellow-600 text-white px-6 py-3 rounded hover:bg-yellow-500">Get Started</a>
+            <a href="#" class="text-yellow-600 ml-4 hover:underline">Learn more →</a>
         </div>
     </header>
 
@@ -158,7 +156,7 @@
         <p class="text-lg text-gray-700"><strong>Address:</strong> 123 Business Street, London, UK</p>
       </div>
       <!-- Contact Form -->
-      <form action="#" method="POST" class="bg-gray-50 shadow-lg rounded-lg p-6">
+      <form action="contact-form.php" method="POST" class="bg-gray-50 shadow-lg rounded-lg p-6">
         <div class="mb-4">
           <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
           <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500">
@@ -171,7 +169,7 @@
           <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
           <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
         </div>
-        <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600">Send Message</button>
+        <button type="submit" class="w-full bg-yellow-600 text-white py-2 rounded-lg hover:bg-yellow-500">Send Message</button>
       </form>
     </div>
   </div>
