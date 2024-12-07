@@ -15,8 +15,8 @@
 
         <div class="container mx-auto px-4 py-4 flex items-center justify-between">
             <a href="#" class="text-yellow-600 text-xl font-bold flex items-center">
-            <img src="assets/logo.png" alt="AccountPro UK Logo" class="w-12 h-8 mr-2">
-                amber business solutions
+            <img src="assets/logo.png" alt="AccountPro UK Logo" class="w-25 h-10 mr-2">
+                 business solutions
             </a>
             <ul class="flex space-x-6 text-gray-600">
                 <li><a href="#" class="hover:text-yellow-600">Services</a></li>
@@ -158,7 +158,7 @@
     <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- Testimonial 1 -->
       <div class="bg-white shadow-lg rounded-lg p-6 text-center">
-        <img src="path-to-sarah-photo.jpg" alt="Sarah Thompson" class="mx-auto rounded-full h-24 w-24">
+        <img src="assets/photo1.png" alt="Sarah Thompson" class="mx-auto rounded-full h-24 w-24">
         <h3 class="mt-4 text-lg font-semibold text-gray-900">Sarah Thompson</h3>
         <p class="text-sm text-gray-500">CEO, Tech Innovations Ltd</p>
         <p class="mt-2 text-yellow-400">★★★★★</p>
@@ -166,7 +166,7 @@
       </div>
       <!-- Testimonial 2 -->
       <div class="bg-white shadow-lg rounded-lg p-6 text-center">
-        <img src="path-to-james-photo.jpg" alt="James Wilson" class="mx-auto rounded-full h-24 w-24">
+        <img src="assets/photo2.png" alt="James Wilson" class="mx-auto rounded-full h-24 w-24">
         <h3 class="mt-4 text-lg font-semibold text-gray-900">James Wilson</h3>
         <p class="text-sm text-gray-500">Director, Wilson Manufacturing</p>
         <p class="mt-2 text-yellow-400">★★★★★</p>
@@ -174,7 +174,7 @@
       </div>
       <!-- Testimonial 3 -->
       <div class="bg-white shadow-lg rounded-lg p-6 text-center">
-        <img src="path-to-emily-photo.jpg" alt="Emily Roberts" class="mx-auto rounded-full h-24 w-24">
+        <img src="assets/photo4.png" alt="Emily Roberts" class="mx-auto rounded-full h-24 w-24">
         <h3 class="mt-4 text-lg font-semibold text-gray-900">Emily Roberts</h3>
         <p class="text-sm text-gray-500">Founder, Digital Solutions</p>
         <p class="mt-2 text-yellow-400">★★★★★</p>
