@@ -192,9 +192,9 @@
     <div class="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-8">
       <!-- Contact Details -->
       <div class="space-y-4">
-        <p class="text-lg text-gray-700"><strong>Phone:</strong> +44 20 1234 5678</p>
-        <p class="text-lg text-gray-700"><strong>Email:</strong> contact@accountprouk.com</p>
-        <p class="text-lg text-gray-700"><strong>Address:</strong> 123 Business Street, London, UK</p>
+        <p class="text-lg text-gray-700"><strong>Phone:</strong> +44 (0) 20 7993 8112 <br>&emsp;&emsp;&emsp;&ensp;+44 (0) 79 7969 6666</p>
+        <p class="text-lg text-gray-700"><strong>Email:</strong> info@amberbusinesssolutions.net</p>
+        <p class="text-lg text-gray-700"><strong>Address:</strong> Amber Business Solutions (London) Ltd.<br> &emsp;&emsp;&emsp;&emsp;&nbsp;UK, Sri Lanka India.</p>
       </div>
       <!-- Contact Form -->
       <form action="contact-form.php" method="POST" class="bg-gray-50 shadow-lg rounded-lg p-6">
@@ -222,7 +222,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- About -->
       <div>
-        <h3 class="text-lg font-semibold">AccountPro UK</h3>
+        <h3 class="text-lg font-semibold">Amber Business Solutions</h3>
         <p class="mt-2 text-gray-400">Professional accounting services for businesses across the United Kingdom.</p>
       </div>
       <!-- Quick Links -->
@@ -249,7 +249,7 @@
   </div>
 </footer>
 <footer class="bg-gray-800 text-white text-center py-4">
-    <p>&copy; 2024 AccountPro UK. All Rights Reserved.</p>
+    <p>&copy; 2024 Amber Business Solutions. All Rights Reserved.</p>
 </footer>
 
     <!-- Overlay -->
@@ -262,7 +262,6 @@
         Close
     </button>
 </div>
-
 
     <script>
         // Function to close the popup
