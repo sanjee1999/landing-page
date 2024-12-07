@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AccountPro UK</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
 </head>
 <body class="bg-gray-50 pt-20">
 
@@ -44,68 +45,74 @@
         <p class="text-gray-600 mt-4">Comprehensive accounting solutions tailored to your business needs.</p>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             <!-- Service Card 1 -->
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6">
+            <a href="/tax-planning" class="block bg-white border border-gray-200 rounded-lg shadow-md p-6 hover:scale-105 hover:shadow-2xl hover:bg-yellow-100 transition-all duration-300 ease-in-out transform">
                 <div class="text-blue-600 mb-4">
                     <svg class="w-12 h-12 mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M3 3h18v18H3z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-800">Tax Planning</h3>
-                <p class="text-gray-600 mt-2">Strategic tax planning and compliance services for businesses of all sizes.</p>
-            </div>
+                <h3 class="text-xl font-bold text-gray-800 text-center">Tax Planning</h3>
+                <p class="text-gray-600 mt-2 text-center">Strategic tax planning and compliance services for businesses of all sizes.</p>
+            </a>
+            
             <!-- Service Card 2 -->
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6">
+            <a href="/financial-analysis" class="block bg-white border border-gray-200 rounded-lg shadow-md p-6 hover:scale-105 hover:shadow-2xl hover:bg-yellow-100 transition-all duration-300 ease-in-out transform">
                 <div class="text-blue-600 mb-4">
                     <svg class="w-12 h-12 mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M3 3h18v18H3z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-800">Financial Analysis</h3>
-                <p class="text-gray-600 mt-2">Comprehensive financial analysis and reporting for informed decision-making.</p>
-            </div>
+                <h3 class="text-xl font-bold text-gray-800 text-center">Financial Analysis</h3>
+                <p class="text-gray-600 mt-2 text-center">Comprehensive financial analysis and reporting for informed decision-making.</p>
+            </a>
+            
             <!-- Service Card 3 -->
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6">
+            <a href="/bookkeeping" class="block bg-white border border-gray-200 rounded-lg shadow-md p-6 hover:scale-105 hover:shadow-2xl hover:bg-yellow-100 transition-all duration-300 ease-in-out transform">
                 <div class="text-blue-600 mb-4">
                     <svg class="w-12 h-12 mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M3 3h18v18H3z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-800">Bookkeeping</h3>
-                <p class="text-gray-600 mt-2">Accurate and timely bookkeeping services to keep your finances organized.</p>
-            </div>
+                <h3 class="text-xl font-bold text-gray-800 text-center">Bookkeeping</h3>
+                <p class="text-gray-600 mt-2 text-center">Accurate and timely bookkeeping services to keep your finances organized.</p>
+            </a>
+            
             <!-- Service Card 4 -->
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6">
+            <a href="/business-advisory" class="block bg-white border border-gray-200 rounded-lg shadow-md p-6 hover:scale-105 hover:shadow-2xl hover:bg-yellow-100 transition-all duration-300 ease-in-out transform">
                 <div class="text-blue-600 mb-4">
                     <svg class="w-12 h-12 mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M3 3h18v18H3z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-800">Business Advisory</h3>
-                <p class="text-gray-600 mt-2">Expert business advice to help your company grow and succeed.</p>
-            </div>
+                <h3 class="text-xl font-bold text-gray-800 text-center">Business Advisory</h3>
+                <p class="text-gray-600 mt-2 text-center">Expert business advice to help your company grow and succeed.</p>
+            </a>
+            
             <!-- Service Card 5 -->
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6">
+            <a href="/payroll-services" class="block bg-white border border-gray-200 rounded-lg shadow-md p-6 hover:scale-105 hover:shadow-2xl hover:bg-yellow-100 transition-all duration-300 ease-in-out transform">
                 <div class="text-blue-600 mb-4">
                     <svg class="w-12 h-12 mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M3 3h18v18H3z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-800">Payroll Services</h3>
-                <p class="text-gray-600 mt-2">Efficient payroll management and processing for your employees.</p>
-            </div>
+                <h3 class="text-xl font-bold text-gray-800 text-center">Payroll Services</h3>
+                <p class="text-gray-600 mt-2 text-center">Efficient payroll management and processing for your employees.</p>
+            </a>
+            
             <!-- Service Card 6 -->
-            <div class="bg-white border border-gray-200 rounded-lg shadow-md p-6">
+            <a href="/growth-strategy" class="block bg-white border border-gray-200 rounded-lg shadow-md p-6 hover:scale-105 hover:shadow-2xl hover:bg-yellow-100 transition-all duration-300 ease-in-out transform">
                 <div class="text-blue-600 mb-4">
                     <svg class="w-12 h-12 mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M3 3h18v18H3z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-800">Growth Strategy</h3>
-                <p class="text-gray-600 mt-2">Strategic planning and guidance for sustainable business growth.</p>
-            </div>
+                <h3 class="text-xl font-bold text-gray-800 text-center">Growth Strategy</h3>
+                <p class="text-gray-600 mt-2 text-center">Strategic planning and guidance for sustainable business growth.</p>
+            </a>
         </div>
     </div>
 </section>
+
 
 <!-- Services Section Ends Here -->
 
@@ -207,9 +214,48 @@
     <!-- <p class="mt-8 text-center text-gray-500">© 2024 AccountPro UK. All rights reserved.</p> -->
   </div>
 </footer>
-    <footer class="bg-gray-800 text-white text-center py-4">
-        <p>&copy; 2024 AccountPro UK. All Rights Reserved.</p>
-    </footer>
+<footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2024 AccountPro UK. All Rights Reserved.</p>
+</footer>
 
+    <!-- Overlay -->
+    <div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 hidden z-10"></div>
+
+    <!-- Popup -->
+<div id="popup" class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-lg shadow-lg hidden z-20 text-center">
+    <p id="popup-message" class="text-lg text-gray-800 mb-4"></p>
+    <button onclick="closePopup()" class="mx-auto mt-4 bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">
+        Close
+    </button>
+</div>
+
+
+    <script>
+        // Function to close the popup
+        function closePopup() {
+            document.getElementById('overlay').classList.add('hidden');
+            document.getElementById('popup').classList.add('hidden');
+        }
+
+        // Display the popup if there's a query parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const status = urlParams.get('status');
+        const message = urlParams.get('message');
+
+        if (status) {
+            const popup = document.getElementById('popup');
+            const overlay = document.getElementById('overlay');
+            const popupMessage = document.getElementById('popup-message');
+
+            if (status === 'success') {
+                popupMessage.textContent = 'Your message has been sent successfully!';
+            } else if (status === 'error') {
+                popupMessage.textContent = `Failed to send your message. ${decodeURIComponent(message)}`;
+            }
+
+            overlay.classList.remove('hidden');
+            popup.classList.remove('hidden');
+        }
+    </script>
 </body>
 </html>

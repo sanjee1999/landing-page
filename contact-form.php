@@ -49,9 +49,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Send email
         $mail->send();
-        echo "Thank you for your message! We will get back to you shortly.";
+        header("Location: index.php?status=success");
+        //echo "Thank you for your message! We will get back to you shortly.";
     } catch (Exception $e) {
-        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        header("Location: index.php?status=error&message=" . urlencode($mail->ErrorInfo));
+        //echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
 } else {
     echo "Invalid request method.";
